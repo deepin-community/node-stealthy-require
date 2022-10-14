@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+
+node debian/tests/test-example01.js

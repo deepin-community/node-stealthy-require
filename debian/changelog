@@ -1,0 +1,49 @@
+node-stealthy-require (1.1.1-4) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata (already
+    present in machine-readable debian/copyright).
+  * Update standards version to 4.5.0, no changes needed.
+  * Apply multi-arch hints. + node-stealthy-require: Add Multi-Arch: foreign.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Add "Rules-Requires-Root: no"
+  * Use dh-sequence-nodejs
+  * Declare compliance with policy 4.5.1
+  * Modernize debian/watch
+  * Replace node-request by node-got in autopkgtest
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 18 Jan 2021 10:02:28 +0100
+
+node-stealthy-require (1.1.1-3) unstable; urgency=medium
+
+  * Team upload
+  * Switch install to pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 03 Aug 2019 15:44:06 +0200
+
+node-stealthy-require (1.1.1-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.0
+  * Add debian/gbp.conf
+  * Move installed files to /usr/share/nodejs
+  * Add upstream/metadata
+  * Update deps
+  * Enable minimal test using pkg-js-tools
+  * Remove test build dependencies since test is not enabled
+  * Fix description
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 23 Jul 2019 07:49:04 +0200
+
+node-stealthy-require (1.1.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #927479)
+
+ -- Ying-Chun Liu (PaulLiu) <paulliu@debian.org>  Sun, 21 Apr 2019 00:28:45 +0800
