@@ -1,6 +1,26 @@
-node-stealthy-require (1.1.1-4) unstable; urgency=medium
+node-stealthy-require (1.1.1-6) unstable; urgency=medium
 
   * Team upload
+  * Disable auto build (Closes: #1007853)
+
+ -- Yadd <yadd@debian.org>  Fri, 18 Mar 2022 06:26:23 +0100
+
+node-stealthy-require (1.1.1-5) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster
+
+  [ Yadd ]
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix debian/watch
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Fri, 24 Dec 2021 17:16:45 +0100
+
+node-stealthy-require (1.1.1-4) unstable; urgency=medium
+
 
   [ Debian Janitor ]
   * Set debhelper-compat version in Build-Depends.

@@ -4,10 +4,9 @@ Priority: optional
 Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
 Uploaders: Ying-Chun Liu (PaulLiu) <paulliu@debian.org>
 Testsuite: autopkgtest-pkg-nodejs
-Build-Depends: debhelper-compat (= 13),
-               nodejs (>= 6),
-               dh-sequence-nodejs
-Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+Standards-Version: 4.6.0
 Homepage: https://github.com/analog-nico/stealthy-require#readme
 Vcs-Git: https://salsa.debian.org/js-team/node-stealthy-require.git
 Vcs-Browser: https://salsa.debian.org/js-team/node-stealthy-require
@@ -15,7 +14,7 @@ Rules-Requires-Root: no
 
 Package: node-stealthy-require
 Architecture: all
-Depends: nodejs (>= 6), ${misc:Depends}
+Depends: ${misc:Depends}
 Multi-Arch: foreign
 Description: require function that bypasses the require cache.
  This is probably the closest you can currently get to require something in

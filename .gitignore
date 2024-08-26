@@ -1,1 +1,7 @@
-.pc/
+/.idea/
+/coverage/
+/node_modules/
+/test/results/
+
+.DS_Store
+npm-debug.log
